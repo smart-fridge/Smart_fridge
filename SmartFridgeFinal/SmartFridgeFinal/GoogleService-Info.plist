@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>751520357605-bfmkbtanuf4lhkomsrjc5eki01ctvi86.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.751520357605-bfmkbtanuf4lhkomsrjc5eki01ctvi86</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBsurmIT4aTNu9WCIzWsgksNBMR1k45O4A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>751520357605</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.SmartFridgeFinal</string>
+	<key>PROJECT_ID</key>
+	<string>smartfridge-1b9d1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>smartfridge-1b9d1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:751520357605:ios:42338422fb16ea91</string>
+	<key>DATABASE_URL</key>
+	<string>https://smartfridge-1b9d1.firebaseio.com</string>
+</dict>
+</plist>
