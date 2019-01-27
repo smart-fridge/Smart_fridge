@@ -4,7 +4,7 @@ import email
 
 while True:
     obj = imaplib.IMAP4_SSL('imap.gmail.com', 993)
-    obj.login('smartfridge0000@gmail.com', 'tamuHACK0000')
+    obj.login('email', 'passowrd')
     obj.select('inbox')
     type, data = obj.search(None, 'all')
     num = data[0].split()[-1]
