@@ -25,8 +25,8 @@ async function getData () {
     db = await MongoClient.connect(uri, options);
     const collection = db.db("tamuhack").collection("smartfridge");
     const results = await collection.find({'id': 'data'},  {projection:{_id:0, id2:1, value:1}} ).toArray()
-    db.close()
     return results
+    db.close()
   } catch (err) {
       console.error(err)
   }
