@@ -12,7 +12,7 @@ MongoClient.connect(uri, function(err, db) {
    const collection = db.db("tamuhack").collection("smartfridge");
    if (err) throw err;
   var dbo = db.db("tamuhack");
-  dbo.collection("smartfridge").find({'id': 'apple'}, {projection:{_id:0, id:1, data1:1}}).toArray(function(err, result) {
+  dbo.collection("smartfridge").find({'id': 'data'}, {projection:{_id:0, id2:1, value:1}}).toArray(function(err, result) {
     if (err) throw err;
     console.log(result);
   });
@@ -24,7 +24,7 @@ async function getData () {
   try {
     db = await MongoClient.connect(uri, options);
     const collection = db.db("tamuhack").collection("smartfridge");
-    const results = await collection.find({'id': 'apple'},  {projection:{_id:0, id:1, data1:1}} ).toArray()
+    const results = await collection.find({'id': 'data'},  {projection:{_id:0, id2:1, value:1}} ).toArray()
     db.close()
     return results
   } catch (err) {
